@@ -1,5 +1,8 @@
 body{
-    background-color: rgb(231, 209, 213);
+    background-image: url("pic.jpg");
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1{
@@ -7,12 +10,11 @@ h1{
 }
 
 #main{
-    border: 1px groove rgb(214, 170, 178);
     width: 50%;
     text-align: center;
     margin-left: 25%;
-    margin-top: 10%;
-    padding: 20px;
+    margin-top: 1%;
+    padding: 5px;
     border-radius: 5px;
     height: auto;
     font-size: 18px;
@@ -28,5 +30,12 @@ h1{
     background-color: transparent;
     padding: 5px;
     border-radius: 5px;
-    border-color: rgb(245, 130, 150);
+    border-color: rgb(204, 202, 202);
+}
+input{
+    border-radius: 5px;
+     padding: 4px;
+}
+#story{
+    color: rgb(139, 48, 48);
 }
